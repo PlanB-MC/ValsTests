@@ -1,6 +1,7 @@
 package planB.mc.val;
 
 import org.bukkit.plugin.java.JavaPlugin;
+import planB.mc.val.pbHeadLights.HeadLight;
 import planB.mc.val.pbUtils.*;
 
 import java.security.SecureRandom;
@@ -43,6 +44,6 @@ public class Main extends JavaPlugin {
     }
 
     private void registerPlugins() {
-
+        HeadLight lights = new HeadLight(this);
     }
 }

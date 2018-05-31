@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/pbBlocksLights/pbBlocksLights.iml" filepath="$PROJECT_DIR$/pbBlocksLights/pbBlocksLights.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pbHeadLights/pbHeadLights.iml" filepath="$PROJECT_DIR$/pbHeadLights/pbHeadLights.iml" />
       <module fileurl="file://$PROJECT_DIR$/pbUtils/pbUtils.iml" filepath="$PROJECT_DIR$/pbUtils/pbUtils.iml" />
       <module fileurl="file://$PROJECT_DIR$/planB-Plugins.iml" filepath="$PROJECT_DIR$/planB-Plugins.iml" />
     </modules>

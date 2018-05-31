@@ -11,17 +11,17 @@ public class pbListeners {
         plugin = main;
     }
 
-    public void addListener(Listener newEvent) {
+    public static void addListener(Listener newEvent) {
         plugin.getServer().getPluginManager().registerEvents(newEvent, plugin);
         pbUtils.log("[pbListener]", "Event Added!", newEvent.toString());
     }
 
-    public void removeListener(Listener newEvent) {
+    public static void removeListener(Listener newEvent) {
         HandlerList.unregisterAll(newEvent);
         pbUtils.log("[pbListener]", "Event Removed!", newEvent.toString());
     }
 
-    public void removeAllListener() {
+    public static void removeAllListener() {
         HandlerList.unregisterAll();
         pbUtils.log("[pbListener]", "All Events Removed!");
     }
