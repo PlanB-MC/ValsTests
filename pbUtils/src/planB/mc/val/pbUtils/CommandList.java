@@ -42,8 +42,7 @@ public class CommandList implements CommandExecutor {
                     return true;
                 } else noPermMsg(sender);
                 break;
-            }
-            case "b": {
+            }            case "b": {
                 if (sender.hasPermission("planb.all")) {
 
                     return true;
