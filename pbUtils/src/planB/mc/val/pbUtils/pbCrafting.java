@@ -1,14 +1,10 @@
 package planB.mc.val.pbUtils;
 
-import org.bukkit.Material;
-import org.bukkit.NamespacedKey;
-import org.bukkit.inventory.ItemStack;
-import org.bukkit.inventory.ShapedRecipe;
-import planB.mc.val.Main;
+import org.bukkit.plugin.java.JavaPlugin;
 
 public class pbCrafting {
 
-    public pbCrafting(Main plugin) {
+    public pbCrafting(JavaPlugin plugin) {
 /*        NamespacedKey key = new NamespacedKey(plugin, plugin.getDescription().getName());
         //Crafting recipe for Barrier Block
         ItemStack barrierStack = new ItemStack(Material.BARRIER, 32);

@@ -1,21 +1,24 @@
 package planB.mc.val.pbUtils;
 
 import org.bukkit.Bukkit;
-import planB.mc.val.Main;
+import org.bukkit.plugin.java.JavaPlugin;
 
+import java.security.SecureRandom;
+import java.util.Random;
 import java.util.logging.Level;
 
 public class pbUtils {
-    private static Main plugin;
+    private static JavaPlugin plugin;
+    private static Random random = new SecureRandom();
 
-    public pbUtils(Main main) {
+    public pbUtils(JavaPlugin main) {
         plugin = main;
     }
 
     public static void doBlame(String name) {
         try {
             String playerName = name.toUpperCase();
-            switch (Main.random.nextInt(6)) {
+            switch (random.nextInt(6)) {
                 case 0: {
                     Bukkit.getServer().dispatchCommand(Bukkit.getConsoleSender(),
                             "title @a title [{\"text\":\"Come on " + playerName + "\"}]");
@@ -47,7 +50,7 @@ public class pbUtils {
                     break;
                 }
             }
-            switch (Main.random.nextInt(5)) {
+            switch (random.nextInt(5)) {
                 case 0: {
                     Bukkit.getServer().dispatchCommand(Bukkit.getConsoleSender(),
                             "title @a subtitle [{\"text\":\"Get it together\",\"bold\":true}]");

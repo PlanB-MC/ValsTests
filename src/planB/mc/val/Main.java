@@ -32,7 +32,7 @@ public class Main extends JavaPlugin {
         pbConfigFile = new pbConfig(this, "test.yml");
         pbConfigFile.addDefault("enablePlugin", true, "planB");
         if (!pbConfigFile.getBoolean("enablePlugin", "planB")) {
-            pbUtils.log('C', "[PlanB-Utils]");
+            planB.mc.val.pbUtils.pbUtils.log('C', "[PlanB-Utils]");
             return;
         }
         pbCrafting = new pbCrafting(this);

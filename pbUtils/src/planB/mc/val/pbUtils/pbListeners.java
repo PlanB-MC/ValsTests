@@ -2,12 +2,12 @@ package planB.mc.val.pbUtils;
 
 import org.bukkit.event.HandlerList;
 import org.bukkit.event.Listener;
-import planB.mc.val.Main;
+import org.bukkit.plugin.java.JavaPlugin;
 
 public class pbListeners {
-    private static Main plugin;
+    private static JavaPlugin plugin;
 
-    public pbListeners(Main main) {
+    public pbListeners(JavaPlugin main) {
         plugin = main;
     }
 
