@@ -1,7 +1,7 @@
 package planB.mc.val;
 
 import org.bukkit.plugin.java.JavaPlugin;
-import planB.mc.val.pbHeadLights.HeadLight;
+import planB.mc.val.pbCraftingHead.pbCraftingHead;
 import planB.mc.val.pbUtils.*;
 
 import java.security.SecureRandom;
@@ -25,8 +25,8 @@ public class Main extends JavaPlugin {
     public void onEnable() {
         super.onEnable();
         //Register Commands
-        this.getCommand("planb").setExecutor(new CommandList());
-        this.getCommand("blame").setExecutor(new CommandList());
+        //this.getCommand("planb").setExecutor(new CommandList());
+        //this.getCommand("blame").setExecutor(new CommandList());
 
         //Setting up Internal Structure:
         pbUtils = new pbUtils(this);
@@ -44,6 +44,7 @@ public class Main extends JavaPlugin {
     }
 
     private void registerPlugins() {
-        HeadLight lights = new HeadLight(this);
+        pbTimber test = new pbTimber(this);
+        pbCraftingHead test2 = new pbCraftingHead(this);
     }
 }

@@ -4,7 +4,8 @@
     <root id="archive" name="planB-Plugins.jar">
       <element id="module-output" name="planB-Plugins" />
       <element id="module-output" name="pbUtils" />
-      <element id="module-output" name="pbHeadLights" />
+      <element id="module-output" name="pbTimber" />
+      <element id="module-output" name="pbChests" />
     </root>
   </artifact>
 </component>
