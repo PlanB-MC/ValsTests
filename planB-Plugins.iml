@@ -9,8 +9,6 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="pbUtils" exported="" />
-    <orderEntry type="library" name="lib" level="project" />
-    <orderEntry type="module" module-name="pbTimber" exported="" />
-    <orderEntry type="module" module-name="pbChests" exported="" />
+    <orderEntry type="library" name="libs" level="project" />
   </component>
 </module>

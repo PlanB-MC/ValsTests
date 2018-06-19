@@ -1,8 +1,11 @@
 package planB.mc.val;
 
 import org.bukkit.plugin.java.JavaPlugin;
-import planB.mc.val.pbCraftingHead.pbCraftingHead;
-import planB.mc.val.pbUtils.*;
+import planB.mc.val.BAB.pbBAB;
+import planB.mc.val.pbUtils.pbConfig;
+import planB.mc.val.pbUtils.pbCrafting;
+import planB.mc.val.pbUtils.pbListeners;
+import planB.mc.val.pbUtils.pbUtils;
 
 import java.security.SecureRandom;
 import java.util.Random;
@@ -44,7 +47,6 @@ public class Main extends JavaPlugin {
     }
 
     private void registerPlugins() {
-        pbTimber test = new pbTimber(this);
-        pbCraftingHead test2 = new pbCraftingHead(this);
+        pbBAB onBAB = new pbBAB();
     }
 }
